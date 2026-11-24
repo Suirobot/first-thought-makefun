@@ -6,7 +6,7 @@ import { dirname } from "node:path";
 
 const OUT = "/output/entry.txt";
 
-const LINE = "Spork";
+const LINE = "Kerfuffle";
 
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, LINE, "utf8");
